@@ -1,0 +1,494 @@
+body {
+    margin: 0;
+    font: normal 14px Kippax,sans-serif;
+    height: 100%;
+    font-family: KippaxCondensed,sans-serif;
+    background-color: whitesmoke;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.navbar{
+    background: #98c5e9;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    background: #98c5e9;
+    height: 6.5rem;
+    background-image: url(../image/chrismast.png);
+}
+.container-fluid .navbar-brand{
+    margin-left: 1%;
+    width: 30%;
+    height: 100%;
+}
+.container-fluid .navbar-brand .logo{
+    width: 30%;
+    height: 100%;
+}
+.container-fluid .navbar-brand .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    float: left;
+}
+.container-fluid .navbar-brand .logo h3{
+    font-family: KippaxCondensed,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    transform: translateY(35px);
+    letter-spacing: .0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #001838;
+}
+.nav-item{
+    padding: 5px;
+}
+.collapse{
+    background-image: url('/image/chrismast.png');
+    background-size: 100%;
+    background-color: #98c5e9;
+    transition: .5s;
+    z-index: 999;
+}
+
+.icon{
+    font-size:50px;
+}
+.nav-item a , .nav-link{
+    font-family: KippaxCondensed,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: .0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #001838;
+}
+/* .nav-item #a1::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    top: 4.6rem;
+    border-radius: 10px;
+    transition: .5s;
+    background-color: green;
+}
+.nav-item #a1:hover::before{
+    width: 3.7rem;
+}
+.nav-item #a2::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    top: 4.6rem;
+    border-radius: 10px;
+    transition: .5s;
+    background-color: green;
+}
+.nav-item #a2:hover::before{
+    width: 7rem;
+} */
+.nav-item .nav-link:hover{
+    color: green;
+}
+
+
+
+#container2{
+    /* background-color: #001838; */
+    background-image: url('/image/chrismast.png');
+    background-color: rgb(218, 49, 49);
+    height: 4rem;
+    width: 100%;
+    float: left;
+    border: none;
+    transform: translateY(-8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container2 h3{
+    font-family: KippaxCondensed,sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(237, 207, 131);
+}
+#container2 img{
+    padding: 10px;
+    margin-top: -10px;
+}
+.carousel{
+    float: left;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: -7px;
+}
+.collapse ul{
+    list-style-type: none;
+}
+.collapse ul li{
+    float: left;
+}
+.collapse ul li a{
+    padding: 10px;
+    font-size: 20px;
+    color: #001838;
+    display: block;
+    transition: .4s;
+}
+.collapse ul li a:hover{
+    color: green;
+}
+.social-links{
+    float: right;
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+#aboutFa{
+    height: 4rem;
+    background-color: rgb(218, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    float: left;
+}
+#text-bg-darks{
+    border: none;
+    float: left;
+}
+#text-bg-darks #img2{
+    float: left;
+}
+#aboutFa h3{
+    font-family: KippaxCondensed,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(237, 207, 131);
+}
+#text-bg-darks img{
+    object-fit: cover;
+}
+#text-bg-darks .card-title{
+    font-size: 40px;
+    font-family: KippaxCondensed,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(237, 207, 131);
+}
+#text-bg-darks .card-text{
+    font-size: 22px;
+    font-family: KippaxCondensed,sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(227, 240, 240);
+}
+#cardPlayer{
+    float: left;
+    margin-top: 7rem;
+    margin-left: 1.2rem;
+}
+#cardPlayer .card-img-top{
+    height: 19rem;
+    transition: .5s;
+
+}
+.card .card-img-top:hover{
+    transform: scale(.98);
+}
+.card .card-img-top:hover .card{
+    box-shadow: 1px 1px 1px 1px rgb(216, 208, 208);
+}
+.card .card-body .card-title{
+    font-size: 27px;
+    color: rgb(237, 207, 131);
+    text-transform: uppercase;
+}
+.card .card-body .card-text{
+    font-size: 18px;
+    opacity: .6;
+    font-weight: 600;
+}
+#lastGoalkeeper{
+    float: left;
+}
+.btn-primary{
+    border: none;
+    background-color: rgb(237, 207, 131);
+}
+#footer{
+    background-color: #212121;
+    float: left;
+    width: 100%;
+    height: 8rem;
+    margin-top: 5rem;
+    background-image: url('/image/chrismast.png');
+}
+.copy{
+    width: 100%;
+    height: 3rem;
+    background-color: #555;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy p{
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+#footer ul{
+    list-style-type: none;
+    float: left;
+}
+#footer ul li{
+    float: left;
+}
+#footer ul li a{
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    transition: .5s;
+    display: block;
+    margin-top: 1rem;
+}
+#footer ul li a:hover{
+    color: green;
+}
+
+.top{
+    width: 3rem;
+    height: 3rem;
+    float: right;
+    border-radius: 50%;
+    margin-right: 2rem;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+
+/* responsive */
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container-fluid .navbar-brand .logo{
+        width: 50%;
+        height: 100%;
+        margin-left: -65%;
+    }
+    .container-fluid .navbar-brand .logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        float: left;
+        padding: 10px;
+    }
+    .container-fluid .navbar-brand .logo h3{
+        font-size: 12px;
+        padding: 7px;
+    }
+    #container2 h3{
+        font-size: 15px;
+    }
+    #aboutFa h3{
+        font-size: 16px;      
+    }
+    #text-bg-darks .card-title{
+        font-size: 20px;
+    }
+    #text-bg-darks .card-text{
+        font-size: 12px;
+    }
+    #cardPlayer{
+        float: left;
+        margin-top: 1rem;
+        margin-left: 1.2rem;
+    }
+    .top{
+        margin-top: -3rem;
+        margin-right: .5rem;
+        z-index: 1;
+    }
+    .copy p{
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .container-fluid .navbar-brand .logo{
+        width: 50%;
+        height: 100%;
+        margin-left: -25%;
+    }
+    .container-fluid .navbar-brand .logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        float: left;
+        padding: 10px;
+    }
+    .container-fluid .navbar-brand .logo h3{
+        font-size: 12px;
+        padding: 7px;
+    }
+    #container2 h3{
+        font-size: 15px;
+    }
+    #aboutFa h3{
+        font-size: 16px;      
+    }
+    #text-bg-darks .card-title{
+        font-size: 20px;
+    }
+    #text-bg-darks .card-text{
+        font-size: 12px;
+    }
+    #cardPlayer{
+        float: left;
+        margin-top: 1rem;
+        margin-left: 8.5rem;
+    }
+    .top{
+        margin-top: 2rem;
+        margin-right: 1rem;
+        z-index: 1;
+    }
+    .copy p{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container-fluid .navbar-brand .logo{
+        width: 50%;
+        height: 100%;
+        margin-left: -25%;
+    }
+    .container-fluid .navbar-brand .logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        float: left;
+        padding: 10px;
+    }
+    .container-fluid .navbar-brand .logo h3{
+        font-size: 18px;
+        padding: 1px;
+    }
+    #container2 h3{
+        font-size: 15px;
+    }
+    #aboutFa h3{
+        font-size: 16px;      
+    }
+    #text-bg-darks .card-title{
+        font-size: 20px;
+    }
+    #text-bg-darks .card-text{
+        font-size: 12px;
+    }
+    #cardPlayer{
+        float: left;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .top{
+        margin-top: 2rem;
+        margin-right: 1cm;
+        z-index: 1;
+    }
+    .copy p{
+        font-size: 12px;
+    }
+    .social-links{
+        display: none;
+    }
+    .collapse{
+        margin-left: 10%;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .container-fluid .navbar-brand .logo{
+        width: 50%;
+        height: 100%;
+        margin-left: 1%;
+    }
+    .container-fluid .navbar-brand .logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        float: left;
+        padding: 10px;
+    }
+    .container-fluid .navbar-brand .logo h3{
+        padding: 1px;
+    }
+    #container2 h3{
+        font-size: 15px;
+    }
+    #aboutFa h3{
+        font-size: 16px;      
+    }
+    #text-bg-darks .card-title{
+        font-size: 20px;
+    }
+    #text-bg-darks .card-text{
+        font-size: 12px;
+    }
+    #cardPlayer{
+        float: left;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .top{
+        margin-top: 2rem;
+        margin-right: 1cm;
+        z-index: 1;
+    }
+    .copy p{
+        font-size: 12px;
+    }
+    .social-links{
+        display: none;
+    }
+    .collapse{
+        margin-left: 20%;
+    }
+}
